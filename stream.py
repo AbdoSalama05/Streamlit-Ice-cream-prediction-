@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-df = pd.read_csv(r"C:\Users\Hp\OneDrive\Documents\IEEE\Streamlit\IceCreamSales-temperatures.csv")
+df = pd.read_csv(r"IceCreamSales-temperatures.csv")
 
 X = df[["Temperature"]]
 y = df["Ice Cream Profits"]
